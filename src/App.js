@@ -5,6 +5,8 @@ import StatsCards from './components/StatsCards';
 import RegionMap from './components/RegionMap';
 import InnovationSection from './components/InnovationSection';
 import Footer from './components/Footer';
+import TiposCafe from './components/TiposCafe';
+import TipsCafe from './components/TipsCafe';
 
 function App() {
     return (
@@ -13,6 +15,8 @@ function App() {
             <HeroSection />
             <StatsCards />
             <RegionMap />
+            <TiposCafe />
+            <TipsCafe />
             <InnovationSection />
             <Footer />
         </div>
